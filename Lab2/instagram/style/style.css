@@ -1,0 +1,231 @@
+
+
+.upper-content{
+    margin-top: -45px;
+}
+
+.body{
+    /*position: relative;*/
+    background-color: #fafafa;
+}
+
+.phone-img{
+    /*position: relative;*/
+    float: left;
+    margin-left: 360px;
+    margin-top: 14px;
+    height: 522px;
+}
+
+.login-form{
+    border-radius: 5px;
+    background-color: white;
+    float: right;
+    margin-right: 414px;
+    margin-top: 45px;
+    width: 333px;
+    height: 522px;
+    /*position: relative;*/
+}
+
+.card{
+    width: 100%;
+    justify-content: center;
+    border-radius: 1px;
+    text-align: center;
+    border: 1px lightgray solid;
+    position: relative;
+}
+
+.card-body{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    /*position: relative;*/
+}
+
+.card2{
+    font-size: 12.6px;
+    margin-top: 8px;
+    border: 1px lightgray solid;
+
+}
+
+.card2 span{
+    font-size: 11px;
+}
+
+.register{
+    margin: 25px 15px 25px 15px;
+    /*position: relative;*/
+    text-align: center;
+
+}
+
+.register span{
+    /*position: relative;*/
+    font-family: Arial;
+    font-size: 12.6px;
+    margin-top: 18px;
+}
+
+.register a{
+    /*position: relative;*/
+    text-decoration: none;
+    color: #0095f6;
+    text-align: center;
+    font-weight: bold;
+}
+
+.form-group{
+    /*position: relative;*/
+    text-align: center;
+    justify-content: center;
+}
+
+.form-control{
+    border: 1px lightgray solid;
+    width: 250px;
+    height: 34px;
+    margin-top: 9px;
+}
+
+.login-btn{
+    /*position: relative;*/
+    width: 254px;
+    height: 31px;
+    margin-top: 10px;
+    border: none;
+    background-color: #4db5f9;
+    color: white;
+    padding: 9px;
+    border-radius: 6px;
+    font-size: 16px ;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.or{
+    padding-left: 4.5px;
+    margin-top: -4.5px;
+    margin-bottom: 27px;
+    position: relative;
+    padding-top: 27px;
+}
+
+.text1 {
+    text-align: center;
+    position: absolute;
+    left: 130px;
+    top: 27px;
+    background: #fff;
+    padding: 0 10.8px;
+    color:gray;
+}
+
+
+.linesvertical{
+    width: 250px;
+    color: gray;
+
+}
+
+.loginFacebook{
+    margin-bottom:13.5px;
+}
+
+.loginFacebook a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #193c72;
+}
+
+.forgot-password{
+    margin-bottom: 18px;
+    /*border-bottom: 1px gray solid;*/
+
+}
+
+.forgot-password a{
+    text-decoration: none;
+    color: #193c72;
+}
+
+.apps{
+    margin-top: 13px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 9px;
+}
+
+.apps1{
+    position: absolute;
+    width: 177px;
+    margin-top: 10px;
+    height: 30px;
+}
+
+
+.apps2{
+    margin-top: 10.8px;
+    position: absolute;
+    width: 450px;
+    height: 38px;
+}
+
+.apps span{
+    font-size: 14px;
+    font-family: Arial;
+}
+
+.lower-links{
+    float: bottom;
+    margin-top: 45px;
+    bottom: 0px;
+}
+
+.nav{
+    font-size: 12px;
+    justify-content: center;
+    position: fixed;
+    bottom: 35px;
+    width: 100%;
+    height: 45px;
+    /*box-shadow: 0 0 3px gray;*/
+    background-color: white;
+    overflow-x: auto;
+    display: flex;
+    color: #697681;
+    font-family: Arial;
+}
+
+.nav-link{
+    /*color: #697681;*/
+    display: flex;
+    font-size: 12.6px;
+}
+
+.rus-from-meta{
+    color: #8e8e8e;
+    font-family: Arial;
+    font-size: 12px;
+    justify-content: center;
+    bottom: -10px;
+    position: fixed;
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    overflow-x: auto;
+    display: flex;
+}
+
+.links{
+    text-decoration: none;
+    color:#8e8e8e;
+}
+
+.login-facebook-mini{
+    margin-top: 6px;
+    margin-right: 6px;
+}
