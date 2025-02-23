@@ -1,0 +1,308 @@
+.upper-content{
+    width: 90%;
+}
+
+html{
+    width: 90%;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+
+li, a, button{
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(38,38,38);
+    text-decoration: none;
+}
+
+
+.sign-in{
+    padding: -15px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.products{
+    margin-top: 15px;
+    border: white 1px solid;
+    text-decoration: none;
+}
+
+.products:hover{
+    text-decoration: underline;
+}
+
+.logo{
+    padding-bottom: -10px ;
+    padding-right: -200px;
+    margin-left: 70px;
+    /*cursor: pointer;*/
+}
+
+.nav-links{
+    padding-left: -100px;
+    margin-right: 800px;
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+    font-size: 15px;
+    color: rgb(38,38,38);
+}
+
+.nav-links li a:hover{
+    color: rgb(38,38,38);
+    text-decoration: underline;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: white;
+    border: none;
+    /*cursor:pointer;*/
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: #193c72;
+}
+
+.main-background{
+    margin-left: -10px;
+    padding-top: -20px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.main-content{
+    margin-top: 5px;
+    position: relative;
+    display: inline-block;
+}
+
+.text1{
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    left: 110px;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+}
+.text2{
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    position: absolute;
+    top: 237px;
+    width: 100%;
+    left: 110px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.check-pc{
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    position: absolute;
+    top: 360px;
+    left: 110px;
+    width: 280px;
+    border-radius: 0;
+    color: white;
+    background-color: rgb(0,103,184);
+    font-size: 17px;
+    height: 45px;
+}
+
+.title-rows, for-business{
+    font-weight: 500;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 28px;
+}
+
+.info-rows{
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+}
+
+.row{
+    margin-top: 50px;
+    margin-left: 100px;
+    justify-content: center;
+    height: 423px;
+    width: 1500px;
+}
+
+.cols{
+    margin: 10px;
+    width: 347px;
+    vertical-align: top;
+    top: 50px;
+    display: inline-block;
+    box-sizing: content-box;
+}
+
+.outlook{
+    margin-left: 100px;
+    margin-top: 170px;
+}
+
+.text3{
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    position: absolute;
+    top: 1400px;
+    width: 100%;
+    left: 240px;
+    color: black;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.text4{
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    position: absolute;
+    top: 1530px;
+    width: 100%;
+    left: 240px;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.download-outlook{
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    position: absolute;
+    top: 1600px;
+    left: 240px;
+    text-align: center;
+    width: 120px;
+    color: white;
+    background-color: rgb(0,103,184);
+    font-size: 17px;
+}
+
+.navbar-button{
+    margin-right: -10px;
+}
+
+.topnavbar-buttons{
+    margin-right: 50px;
+}
+
+
+.button-links{
+    padding-top: -20px;
+    color: #0067b8;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+
+.rightarrow{
+    padding-top: -20px;
+    padding-right: -10px;
+    /*margin-top: 10px;*/
+    margin-right: 17px;
+    margin-top: 10px;
+    padding-bottom: -10px;
+}
+
+/*.block1:hover + .block2 h1 { color: red;}*/
+.rightarrow:hover {
+    padding-top: -20px;
+    padding-right: -10px;
+    margin-right: 17px;
+    margin-top: 10px;
+    padding-bottom: -10px;
+    margin-left: 20px;
+}
+
+.button-links + .rightarrow:hover{
+    padding-top: -20px;
+    padding-right: -10px;
+    /*margin-top: 10px;*/
+    margin-right: 17px;
+    margin-top: 10px;
+    padding-bottom: -10px;
+    margin-left: 20px;
+}
+
+.button-links:hover{
+    text-decoration: underline;
+}
+
+.for-business{
+    font-size: 40px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.row2{
+    margin-top: 100px;
+    margin-left: 100px;
+    justify-content: center;
+    height: 423px;
+    width: 1500px;
+    margin-bottom: 400px;
+}
+
+.container_1{
+    margin-top: 0px;
+    margin-left: 70px;
+    display: flex;
+    gap: 30px;
+}
+.container_2 {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 1100px;
+    display: flex;
+    gap: 25px;
+}
+.mcrsoft_logo{
+    padding-bottom: -10px   ;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.search{
+    margin-top: 7px;
+    margin-bottom: 15px ;
+    padding: -15px;
+    padding-left: -20px;
+}
+
+.search:hover{
+    background-color: white;
+    border: none;
+    text-decoration: underline;
+    margin-top: 7px;
+    padding-left: -15px;
+}
+
+.search-img{
+    margin-top: 15px;
+    margin-right: -15px;
+    margin-bottom: 15px ;
+    padding: -15px;
+}
+
+.login-btn-top:hover{
+    background-color: white;
+    border: none;
+    text-decoration: underline;
+    margin-top: 10px;
+    padding-left: -15px;
+    cursor: pointer;
+}
