@@ -1,18 +1,45 @@
 <div class="container">
-    <input type="text" placeholder="Filter by name or description" [(ngModel)]="searchText" class="search-box">
-    
-    <div class="grid">
-      <div *ngFor="let product of filteredProducts()" class="card">
-        <img [src]="product.image" alt="{{ product.name }}">
-        <h3>{{ product.name }}</h3>
-        <p>{{ product.description }}</p>
-        <p>⭐ {{ product.rating }}</p>
-        <div class="buttons">
-          <button (click)="share(product.link, 'whatsapp')">WhatsApp</button>
-          <button (click)="share(product.link, 'telegram')">Telegram</button>
-        </div>
-        <a [href]="product.link" target="_blank" class="learn-more">Learn More »</a>
-      </div>
+  <div class="sort-buttons">
+    <button (click)="sortAscending()"> A-Z</button>
+    <button (click)="sortDescending()"> Z-A</button>
+  </div>
+</div>
+
+<div class="categories">
+  <button *ngFor="let category of categories" (click)="selectedCategoryId = category.id">
+    {{ category.name }}
+  </button>
+  <button (click)="selectedCategoryId = null">Все товары</button>
+</div>
+
+<input type="text" placeholder="Filter by name or description" [(ngModel)]="searchText" class="search-box" />
+
+<div class="grid">
+  <div *ngFor="let product of filteredProducts(); let i = index" class="card">
+    <img [src]="product.image" alt="{{ product.name }}">
+    <h3>{{ product.name }}</h3>
+    <p>{{ product.description }}</p>
+    <p>⭐ {{ product.rating }}</p>
+
+    <div class="buttons">
+      <button (click)="share(product.link, 'whatsapp')">WhatsApp</button>
+      <button (click)="share(product.link, 'telegram')">Telegram</button>
+    </div>
+
+    <a [href]="product.link" target="_blank" class="learn-more">Learn More »</a>
+
+    <!-- Кнопки лайка и удаления -->
+    <div class="extra-buttons">
+      <button (click)="likeProduct(i)">❤️ Like ({{ product.likes }})</button>
+      <button (click)="removeProduct(i)">🗑 Удалить</button>
     </div>
   </div>
-  
+</div>
+
+<!-- <div *ngFor="let product of products; let i = index" class="product-card">
+    <div class="carousel">
+      <button (click)="prevImage(i)">‹</button>
+      <img [src]="product.images[currentIndex[i]]" alt="{{ product.name }}">
+      <button (click)="nextImage(i)">›</button>
+    </div>
+  </div> -->

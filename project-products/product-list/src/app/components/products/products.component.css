@@ -70,4 +70,62 @@
     text-decoration: none;
     font-weight: bold;
   }
+  .product-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
   
+  .product-image {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:first-child {
+    background-color: #ff4d4d;
+    color: white;
+  }
+  
+  button:last-child {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* 
+  .product-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.carousel img {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+}
+  */
+
+
